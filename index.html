@@ -1241,7 +1241,7 @@
      galleryFullscreen.addEventListener('click',event=>{event.stopPropagation();toggleGalleryFullscreen()});
      galleryMinimize.addEventListener('click',event=>{event.stopPropagation();if(document.fullscreenElement===projectGallery)document.exitFullscreen().catch(()=>{});else if(galleryForcedFullscreen){galleryForcedFullscreen=false;projectGallery.classList.remove('is-force-fullscreen');syncGalleryFullscreenUi()}});
      document.addEventListener('fullscreenchange',syncGalleryFullscreenUi);
-     document.querySelector('#projectGrid').addEventListener('click',event=>{if(event.target.closest('a'))return;const card=event.target.closest('.project');if(card){event.stopPropagation();openProjectGallery(card,false)}});
+     document.querySelector('#projectGrid').addEventListener('click',event=>{if(event.target.closest('a'))return;const card=event.target.closest('.project');if(card){event.preventDefault();event.stopPropagation();openProjectGallery(card,false)}},true);
     document.querySelector('#projectGrid').addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&event.target.matches('.project')){event.preventDefault();openProjectGallery(event.target,false)}});
     document.querySelector('#gameProjectGrid').addEventListener('click',event=>{const card=event.target.closest('.project');if(card)openProjectGallery(card,true)});
     document.querySelector('#gameProjectGrid').addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&event.target.matches('.project')){event.preventDefault();openProjectGallery(event.target,true)}});
