@@ -1,0 +1,13 @@
+*.blend
+*.blend1
+
+.preview-tools/
+
+uploads/uiux/*/capture/
+
+assets/*-check.png
+GITHUB-PAGES-SETUP.md
+ADMIN-SETUP.md
+admin/
+netlify.toml
+uploads/**/details.txt

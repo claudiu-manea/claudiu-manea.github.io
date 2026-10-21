@@ -1,0 +1,309 @@
+[
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-01-1080.jpg",
+    "label": "Bloom&Breakfast · Restaurant Repaired",
+    "alt": "Bloom&Breakfast — Restaurant Repaired",
+    "sources": [
+      "RestaurantRepaired.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-02-1080.jpg",
+    "label": "Bloom&Breakfast · Caves Set Pieces Mushrooms",
+    "alt": "Bloom&Breakfast — Caves Set Pieces Mushrooms",
+    "sources": [
+      "CavesSetPiecesMushrooms.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-03-1080.jpg",
+    "label": "Bloom&Breakfast · Desert and Arizona",
+    "alt": "Bloom&Breakfast Desert and Arizona setpieces and alternate views",
+    "sources": [
+      "Canyon.png",
+      "DesertSetPiecesNew.png",
+      "SetPieceArizona1.png",
+      "SetPieceArizona2.png",
+      "SetPieceArizona3-4.png",
+      "SetPieceArizona5.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-04-1080.jpg",
+    "label": "Bloom&Breakfast · Forest and waterfalls",
+    "alt": "Bloom&Breakfast Forest and Grasslands setpieces and alternate views",
+    "sources": [
+      "ForestSetPiecesNew.png",
+      "GrassLandsSetpiece1.png",
+      "GrassLandsSetpiece2.png",
+      "SetPieceWaterfalls2view1.png",
+      "SetPieceWaterfalls2view2.png",
+      "SetPieceWaterfallsview1.png",
+      "SetPieceWaterfallsview2.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-05-1080.jpg",
+    "label": "Bloom&Breakfast · Library",
+    "alt": "Library setpieces with enlarged single window, triple windows, and crystal altar",
+    "sources": [
+      "LibraryCastleSetPieces.png",
+      "LibrarySetPieces.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-06-1080.jpg",
+    "label": "Bloom&Breakfast · Sky Gardens and Nomads",
+    "alt": "Bloom&Breakfast Sky Gardens and Nomads setpieces and alternate views",
+    "sources": [
+      "SetPiecesSkyNomads.png",
+      "SkyGardensSetPieces.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-07-1080.jpg",
+    "label": "Bloom&Breakfast · Swamp",
+    "alt": "Bloom&Breakfast Swamp setpieces and alternate views",
+    "sources": [
+      "SwampSetPiece1_View1.png",
+      "SwampSetPiece1_View2.png",
+      "SwampSetPiece2_View1.png",
+      "SwampSetPiece2_View2.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-08-1080.jpg",
+    "label": "Bloom&Breakfast · Underwater",
+    "alt": "Bloom&Breakfast Underwater setpieces and alternate views",
+    "sources": [
+      "UnderwatersetPiece1.png",
+      "UnderwatersetPiece2.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-09-1080.jpg",
+    "label": "Bloom&Breakfast · Buildings 01",
+    "alt": "Bloom&Breakfast buildings: UIVis_Building_BakeryLvl2_Model, UIVis_Building_DocksLvl0_Model, UIVis_Building_DocksLvl2_Model, UIVis_Building_LighthouseLvl0_Model, UIVis_Building_LighthouseLvl1_Model",
+    "sources": [
+      "UIVis_Building_BakeryLvl2_Model.png",
+      "UIVis_Building_DocksLvl0_Model.png",
+      "UIVis_Building_DocksLvl2_Model.png",
+      "UIVis_Building_LighthouseLvl0_Model.png",
+      "UIVis_Building_LighthouseLvl1_Model.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-10-1080.jpg",
+    "label": "Bloom&Breakfast · Buildings 02",
+    "alt": "Bloom&Breakfast buildings: UIVis_Building_MarketLvl0_Model, UIVis_Building_MarketLvl1_Model, UIVis_Building_MarketLvl2_Model, UIVis_Building_MarketLvl3_Model, UIVis_MushroomHouse_Building_Model, UIVis_StrawBerryHouse_Building",
+    "sources": [
+      "UIVis_Building_MarketLvl0_Model.png",
+      "UIVis_Building_MarketLvl1_Model.png",
+      "UIVis_Building_MarketLvl2_Model.png",
+      "UIVis_Building_MarketLvl3_Model.png",
+      "UIVis_MushroomHouse_Building_Model.png",
+      "UIVis_StrawBerryHouse_Building.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-11-1080.jpg",
+    "label": "Bloom&Breakfast · Props 01",
+    "alt": "Bloom&Breakfast props: ArrowSigns, Bags, bug, Bushes Flowers, ChubyCactus, DateTree, DesertTwistyTree, DesertWatermelon, DesertWell, FarmGatherables, FarmingCoconut_LV1_Model",
+    "sources": [
+      "ArrowSigns.png",
+      "Bags.png",
+      "bug.png",
+      "Bushes Flowers.png",
+      "ChubyCactus.png",
+      "DateTree.png",
+      "DesertTwistyTree.png",
+      "DesertWatermelon.png",
+      "DesertWell.png",
+      "FarmGatherables.png",
+      "FarmingCoconut_LV1_Model.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-12-1080.jpg",
+    "label": "Bloom&Breakfast · Props 02",
+    "alt": "Only the selected six crop plants and six individual trees and bushes",
+    "sources": [
+      "FarmingFruitsandTrees.png",
+      "FarmingOnlyTrees.png",
+      "FarmingOnlyTrees2.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-13-1080.jpg",
+    "label": "Bloom&Breakfast · Props 03",
+    "alt": "Bloom&Breakfast props: MapleTree, MarchDiamonds, MarchFern, MirageStoneDust, NewBerriesBush, NomadInstruments, NarrativeItems, StoneBox",
+    "sources": [
+      "MapleTree.png",
+      "MarchDiamonds.png",
+      "MarchFern.png",
+      "MirageStoneDust.png",
+      "NewBerriesBush.png",
+      "NomadInstruments.png",
+      "NarrativeItems.png",
+      "StoneBox.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-14-1080.jpg",
+    "label": "Bloom&Breakfast · Props 04",
+    "alt": "Bloom&Breakfast props: NomadPottery, NomadRugs, NomadStock, NomadTent, OasisPlant, OasisSucculent, OldSump, PalmTree, PileOfPlanks, PillarOfLight, QuadrupleCactus, GoatWooden",
+    "sources": [
+      "NomadPottery.png",
+      "NomadRugs.png",
+      "NomadStock.png",
+      "NomadTent.png",
+      "OasisPlant.png",
+      "OasisSucculent.png",
+      "OldSump.png",
+      "PalmTree.png",
+      "PileOfPlanks.png",
+      "PillarOfLight.png",
+      "QuadrupleCactus.png",
+      "GoatWooden.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-15-1080.jpg",
+    "label": "Bloom&Breakfast · Props 05",
+    "alt": "Bloom&Breakfast props: Reed, RoadBlock, RockDepositMarsh, SilkWormCrop, SmallPalmTree, SquirellWooden, StackOfBricks, SunFlower, UIVis_AppleTable_Prop, UIVis_Blocker_FallenTree, UIVis_Blocker_FenceGate_Closed, IluminescentPlant",
+    "sources": [
+      "Reed.png",
+      "RoadBlock.png",
+      "RockDepositMarsh.png",
+      "SilkWormCrop.png",
+      "SmallPalmTree.png",
+      "SquirellWooden.png",
+      "StackOfBricks.png",
+      "SunFlower.png",
+      "UIVis_AppleTable_Prop.png",
+      "UIVis_Blocker_FallenTree.png",
+      "UIVis_Blocker_FenceGate_Closed.png",
+      "IluminescentPlant.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-16-1080.jpg",
+    "label": "Bloom&Breakfast · Props 06",
+    "alt": "Bloom&Breakfast props: UIVis_Blocker_FenceGate_Open, UIVis_Blocker_HedgeGate_Closed, UIVis_Blocker_HedgeGate_Open, UIVis_Blocker_StoneArch_Collapsed, UIVis_Blocker_StoneArch_Restored, UIVis_FarmingCoconut_LV2_Model, UIVis_FarmingCoconut_LV3_Model, UIVis_Gatherable_Bushes, UIVis_Gatherable_FallenLogs, UIVis_Gatherable_FernClusters, UIVis_MatGatherable_Beehive, LoquoTree",
+    "sources": [
+      "UIVis_Blocker_FenceGate_Open.png",
+      "UIVis_Blocker_HedgeGate_Closed.png",
+      "UIVis_Blocker_HedgeGate_Open.png",
+      "UIVis_Blocker_StoneArch_Collapsed.png",
+      "UIVis_Blocker_StoneArch_Restored.png",
+      "UIVis_FarmingCoconut_LV2_Model.png",
+      "UIVis_FarmingCoconut_LV3_Model.png",
+      "UIVis_Gatherable_Bushes.png",
+      "UIVis_Gatherable_FallenLogs.png",
+      "UIVis_Gatherable_FernClusters.png",
+      "UIVis_MatGatherable_Beehive.png",
+      "LoquoTree.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-17-1080.jpg",
+    "label": "Bloom&Breakfast · Props 07",
+    "alt": "Bloom&Breakfast props: UIVis_MatGatherable_BerryBush, UIVis_MatGatherable_LilyFlower, UIVis_PlotDecoration_AppleTree, UIVis_PlotDecoration_Bench, UIVis_PlotDecoration_ChessTableLvl1, UIVis_PlotDecoration_ChessTableLvl2, UIVis_PlotDecoration_Column, UIVis_PlotDecoration_Deer, UIVis_PlotDecoration_FishFountain, UIVis_PlotDecoration_Fox, UIVis_PlotDecoration_LightPole, LotusFlower",
+    "sources": [
+      "UIVis_MatGatherable_BerryBush.png",
+      "UIVis_MatGatherable_LilyFlower.png",
+      "UIVis_PlotDecoration_AppleTree.png",
+      "UIVis_PlotDecoration_Bench.png",
+      "UIVis_PlotDecoration_ChessTableLvl1.png",
+      "UIVis_PlotDecoration_ChessTableLvl2.png",
+      "UIVis_PlotDecoration_Column.png",
+      "UIVis_PlotDecoration_Deer.png",
+      "UIVis_PlotDecoration_FishFountain.png",
+      "UIVis_PlotDecoration_Fox.png",
+      "UIVis_PlotDecoration_LightPole.png",
+      "LotusFlower.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-18-1080.jpg",
+    "label": "Bloom&Breakfast · Props 08",
+    "alt": "Bloom&Breakfast props: UIVis_PlotDecoration_LumberjackAxe, UIVis_PlotDecoration_Ram, UIVis_PlotDecoration_WaterWellLvl1, UIVis_PlotDecoration_WaterWellLvl2, UIVis_Separator_Fence_Small, UIVis_Separator_Hedges_Large, UIVis_Separator_Hedges_Medium, UIVis_Separator_Hedges_Small, UIVis_Separator_StoneWall_Large, UIVis_Separator_StoneWall_Medium, MagicLamp",
+    "sources": [
+      "UIVis_PlotDecoration_LumberjackAxe.png",
+      "UIVis_PlotDecoration_Ram.png",
+      "UIVis_PlotDecoration_WaterWellLvl1.png",
+      "UIVis_PlotDecoration_WaterWellLvl2.png",
+      "UIVis_Separator_Fence_Small.png",
+      "UIVis_Separator_Hedges_Large.png",
+      "UIVis_Separator_Hedges_Medium.png",
+      "UIVis_Separator_Hedges_Small.png",
+      "UIVis_Separator_StoneWall_Large.png",
+      "UIVis_Separator_StoneWall_Medium.png",
+      "MagicLamp.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-19-1080.jpg",
+    "label": "Bloom&Breakfast · Props 09",
+    "alt": "Bloom&Breakfast props: UIVis_Separator_StoneWall_Small, Vis_Blocker_StoneArch_WetLands_Collapsed, Vis_Blocker_StoneArch_WetLands_Restored, Vis_Separator_StoneWall_WetLands_Large, Vis_Separator_StoneWall_WetLands_Medium, Vis_Separator_StoneWall_WetLands_Small, WheatPatchCut, WheatPatchGrown, WheatPatchSprouts, WispFlowers",
+    "sources": [
+      "UIVis_Separator_StoneWall_Small.png",
+      "Vis_Blocker_StoneArch_WetLands_Collapsed.png",
+      "Vis_Blocker_StoneArch_WetLands_Restored.png",
+      "Vis_Separator_StoneWall_WetLands_Large.png",
+      "Vis_Separator_StoneWall_WetLands_Medium.png",
+      "Vis_Separator_StoneWall_WetLands_Small.png",
+      "WheatPatchCut.png",
+      "WheatPatchGrown.png",
+      "WheatPatchSprouts.png",
+      "WispFlowers.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-20-1080.jpg",
+    "label": "Bloom&Breakfast · Woodland props",
+    "alt": "Woodland props, gatherables, fences, apple flag, and hammock",
+    "sources": [
+      "swamp_assets.png",
+      "SwampGatherables.png",
+      "TreeFences.png",
+      "TreePileWetLands.png",
+      "TreeTrunk.png",
+      "TreeTrunkGates.png",
+      "UIVis_AppleFlag_Prop.png",
+      "UIVis_AppleHammock_Prop.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-21-1080.jpg",
+    "label": "Bloom&Breakfast · Farm layout",
+    "alt": "Bloom&Breakfast Farm layout",
+    "sources": [
+      "FarmingLayout.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-22-1080.jpg",
+    "label": "Bloom&Breakfast · Forest gatherables",
+    "alt": "Bloom&Breakfast Forest gatherables",
+    "sources": [
+      "ForestGatherables.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-23-1080.jpg",
+    "label": "Bloom&Breakfast · Houses 1 / 2",
+    "alt": "Bloom&Breakfast Houses 1 / 2",
+    "sources": [
+      "HomesGardens.png"
+    ]
+  },
+  {
+    "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-24-1080.jpg",
+    "label": "Bloom&Breakfast · Houses 2 / 2",
+    "alt": "Bloom&Breakfast Houses 2 / 2",
+    "sources": [
+      "HomesGardens.png"
+    ]
+  }
+]

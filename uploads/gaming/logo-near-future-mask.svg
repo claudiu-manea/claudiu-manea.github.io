@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="title">
+  <title id="title">Near Future Mask</title>
+  <path d="M22 30h476v90H22z" fill="#d9e6de" stroke="#171713" stroke-width="8"/>
+  <path d="M42 43h436v64H42z" fill="none" stroke="#5f756b" stroke-width="2"/>
+  <text x="260" y="78" text-anchor="middle" fill="#171713" font-family="Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="5">NEAR FUTURE</text>
+  <text x="260" y="103" text-anchor="middle" fill="#168ca1" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="9">MASK</text>
+</svg>

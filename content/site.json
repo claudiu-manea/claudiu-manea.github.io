@@ -1,0 +1,844 @@
+{
+  "brandName": "CLAUDIU MANEA",
+  "hero": {
+    "line1": "A little bit of",
+    "highlight": "everything,",
+    "line3": "made with feeling.",
+    "portfolioLabel": "PORTFOLIO / 2026",
+    "categoryLabel": "PHOTO · VIDEO · GAMING"
+  },
+  "about": {
+    "eyebrow": "01 / THE PERSON BEHIND THE PIXELS",
+    "heading": "Who",
+    "headingAccent": "Am I?",
+    "body": "I’m a generative AI art and workflow specialist, a Senior 3D Artist at Fortis, and 18 years into making things for games. My biggest skill is crossing disciplines: connecting software, 3D, 2D, animation, and photography to find new ways to create.",
+    "email": "hello@example.com",
+    "contactLabel": "Say hello",
+    "skills": "Artificial Intelligence (AI) • Generative Art • Blender • Autodesk 3ds Max • 3D graphics"
+  },
+  "projects": [
+    {
+      "title": "Somewhere, slowly",
+      "category": "photography",
+      "year": "2025",
+      "caption": "PHOTO · little moments",
+      "media": ""
+    },
+    {
+      "title": "Still MOVING",
+      "category": "video",
+      "year": "2024",
+      "caption": "MOTION · 2024",
+      "description": "A parallax project using photos I took in different places across Romania, Montenegro, and San Francisco, then animated.",
+      "media": "",
+      "previewVideoId": "50Cq7zltLis",
+      "gallery": [
+        {
+          "type": "youtube",
+          "videoId": "50Cq7zltLis",
+          "watchUrl": "https://www.youtube.com/watch?v=50Cq7zltLis",
+          "label": "MOTION · 2024"
+        }
+      ]
+    },
+    {
+      "title": "Balissimo",
+      "category": "video",
+      "year": "2025",
+      "caption": "MOTION · 2025",
+      "description": "Parallax photography project using photos I took during my visit to Bali, Indonesia.",
+      "media": "",
+      "previewVideoId": "Ptn3zYXF5AY",
+      "gallery": [
+        {
+          "type": "youtube",
+          "videoId": "Ptn3zYXF5AY",
+          "watchUrl": "https://www.youtube.com/watch?v=Ptn3zYXF5AY",
+          "label": "MOTION · 2025"
+        }
+      ]
+    },
+    {
+      "title": "Gangstar",
+      "category": "gaming",
+      "gameBrand": "gangstar",
+      "caption": "GANGSTAR",
+      "project": "Gangstar",
+      "company": "Gameloft",
+      "concept": "Raluca Iosifescu",
+      "media": "./uploads/gaming/projects/Gangstar/claudiu-manea-hex-final.jpg",
+      "gallery": [
+        {
+          "url": "./uploads/gaming/projects/Gangstar/claudiu-manea-1split.jpg",
+          "alt": "Gangstar — artwork 1",
+          "label": "Gangstar · 01 / 13"
+        },
+        {
+          "url": "./uploads/gaming/projects/Gangstar/claudiu-manea-33.jpg",
+          "alt": "Gangstar — artwork 2",
+          "label": "Gangstar · 02 / 13"
+        },
+        {
+          "url": "./uploads/gaming/projects/Gangstar/claudiu-manea-44.jpg",
+          "alt": "Gangstar — artwork 3",
+          "label": "Gangstar · 03 / 13"
+        },
+        {
+          "url": "./uploads/gaming/projects/Gangstar/claudiu-manea-gungho0005.jpg",
+          "alt": "Gangstar — artwork 4",
+          "label": "Gangstar · 04 / 13"
+        },
+        {
+          "url": "./uploads/gaming/projects/Gangstar/claudiu-manea-gungho0006.jpg",
+          "alt": "Gangstar — artwork 5",
+          "label": "Gangstar · 05 / 13"
+        },
+        {
+          "url": "./uploads/gaming/projects/Gangstar/claudiu-manea-gungho0007.jpg",
+          "alt": "Gangstar — artwork 6",
+          "label": "Gangstar · 06 / 13"
+        },
+        {
+          "url": "./uploads/gaming/projects/Gangstar/claudiu-manea-gungho0008.jpg",
+          "alt": "Gangstar — artwork 7",
+          "label": "Gangstar · 07 / 13"
+        },
+        {
+          "url": "./uploads/gaming/projects/Gangstar/claudiu-manea-hex-final.jpg",
+          "alt": "Gangstar — artwork 8",
+          "label": "Gangstar · 08 / 13"
+        },
+        {
+          "url": "./uploads/gaming/projects/Gangstar/claudiu-manea-irish-final.jpg",
+          "alt": "Gangstar — artwork 9",
+          "label": "Gangstar · 09 / 13"
+        },
+        {
+          "url": "./uploads/gaming/projects/Gangstar/claudiu-manea-punker-closeup.jpg",
+          "alt": "Gangstar — artwork 10",
+          "label": "Gangstar · 10 / 13"
+        },
+        {
+          "url": "./uploads/gaming/projects/Gangstar/claudiu-manea-subst1.jpg",
+          "alt": "Gangstar — artwork 11",
+          "label": "Gangstar · 11 / 13"
+        },
+        {
+          "url": "./uploads/gaming/projects/Gangstar/claudiu-manea-subst2.jpg",
+          "alt": "Gangstar — artwork 12",
+          "label": "Gangstar · 12 / 13"
+        },
+        {
+          "url": "./uploads/gaming/projects/Gangstar/claudiu-manea-subst3.jpg",
+          "alt": "Gangstar — artwork 13",
+          "label": "Gangstar · 13 / 13"
+        }
+      ]
+    },
+    {
+      "title": "Dota2 Set",
+      "category": "gaming",
+      "gameBrand": "dota-2",
+      "caption": "DOTA 2",
+      "project": "Dota2 Set",
+      "company": "Valve Corporation",
+      "concept": "Claudiu Manea",
+      "media": "./uploads/gaming/projects/dota-2/claudiu-manea-monkeypharoah-final.jpg",
+      "gallery": [
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-artstation-brainy.jpg",
+          "alt": "Dota2 Set — artwork 1",
+          "label": "Dota2 Set · 01 / 21"
+        },
+        {
+          "type": "youtube",
+          "videoId": "yP-nR6TQQsM",
+          "watchUrl": "https://www.youtube.com/watch?v=yP-nR6TQQsM",
+          "thumbnail": "https://i.ytimg.com/vi/yP-nR6TQQsM/hqdefault.jpg",
+          "label": "Dota 2 — Brainy video"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-artstation-gif1-opt.gif",
+          "alt": "Dota2 Set — artwork 2",
+          "label": "Dota2 Set · 03 / 21"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-artstation-gif2-opt.gif",
+          "alt": "Dota2 Set — artwork 3",
+          "label": "Dota2 Set · 04 / 21"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-ezgif-com-optimize-1.gif",
+          "alt": "Dota2 Set — artwork 4",
+          "label": "Dota2 Set · 05 / 21"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-ezgif-com-optimize-2.gif",
+          "alt": "Dota2 Set — artwork 5",
+          "label": "Dota2 Set · 06 / 21"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-ezgif-com-optimize-3.gif",
+          "alt": "Dota2 Set — artwork 6",
+          "label": "Dota2 Set · 07 / 21"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-ezgif-com-optimize.gif",
+          "alt": "Dota2 Set — artwork 7",
+          "label": "Dota2 Set · 08 / 21"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-ezgif-com-resize-1.gif",
+          "alt": "Dota2 Set — artwork 8",
+          "label": "Dota2 Set · 09 / 21"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-ezgif-com-resize-3.gif",
+          "alt": "Dota2 Set — artwork 9",
+          "label": "Dota2 Set · 10 / 21"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-ezgif-com-resize.gif",
+          "alt": "Dota2 Set — artwork 10",
+          "label": "Dota2 Set · 11 / 21"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/alien_cat.jpg",
+          "alt": "Dota 2 — Alien Cat",
+          "label": "Dota2 Set · 12 / 21"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-randari-alien-cat.jpg",
+          "alt": "Dota 2 — Alien Cat render",
+          "label": "Dota2 Set · 13 / 21"
+        },
+        {
+          "type": "youtube",
+          "videoId": "2Gum0JiRAMM",
+          "watchUrl": "https://www.youtube.com/watch?v=2Gum0JiRAMM",
+          "thumbnail": "https://i.ytimg.com/vi/2Gum0JiRAMM/hqdefault.jpg",
+          "label": "Dota 2 — Alien Cat video"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-monkeypharoah-final.jpg",
+          "alt": "Dota2 Set — artwork 12",
+          "label": "Dota2 Set · 15 / 21"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-randari-drillcopter-2.jpg",
+          "alt": "Dota2 Set — artwork 13",
+          "label": "Dota2 Set · 16 / 21"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-randari-leafy-seahorse-angles.jpg",
+          "alt": "Dota 2 — Leafy Seahorse",
+          "label": "Dota2 Set · 17 / 21"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-randari-leafy-seahorse.jpg",
+          "alt": "Dota 2 — Leafy Seahorse",
+          "label": "Dota2 Set · 18 / 21"
+        },
+        {
+          "type": "youtube",
+          "videoId": "iJd1BdGWU-0",
+          "watchUrl": "https://www.youtube.com/watch?v=iJd1BdGWU-0",
+          "thumbnail": "https://i.ytimg.com/vi/iJd1BdGWU-0/hqdefault.jpg",
+          "label": "Dota 2 — Leafy Seahorse video"
+        },
+        {
+          "url": "./uploads/gaming/projects/dota-2/claudiu-manea-randari-old-dirty-boot.jpg",
+          "alt": "Dota 2 — Old Dirty Boot",
+          "label": "Dota2 Set · 20 / 21"
+        },
+        {
+          "type": "youtube",
+          "videoId": "Sf0CY9ZUCKA",
+          "watchUrl": "https://www.youtube.com/watch?v=Sf0CY9ZUCKA",
+          "thumbnail": "https://i.ytimg.com/vi/Sf0CY9ZUCKA/hqdefault.jpg",
+          "label": "Dota 2 — Old Dirty Boot video"
+        }
+      ]
+    },
+    {
+      "title": "Brawl Stars Skins",
+      "category": "gaming",
+      "gameBrand": "brawl-stars",
+      "caption": "BRAWL-STARS",
+      "project": "Brawl Stars Skins",
+      "company": "Supercell",
+      "concept": "Claudiu Manea",
+      "media": "./uploads/gaming/projects/brawl-stars/claudiu-manea-nita1.jpg",
+      "gallery": [
+        {
+          "url": "./uploads/gaming/projects/brawl-stars/claudiu-manea-biker-bibi-01.jpg",
+          "alt": "Brawl Stars Skins — artwork 1",
+          "label": "Brawl Stars Skins · 01 / 06"
+        },
+        {
+          "url": "./uploads/gaming/projects/brawl-stars/claudiu-manea-biker-bibi-02.jpg",
+          "alt": "Brawl Stars Skins — artwork 2",
+          "label": "Brawl Stars Skins · 02 / 06"
+        },
+        {
+          "url": "./uploads/gaming/projects/brawl-stars/claudiu-manea-marketing-mummy-bea-01.jpg",
+          "alt": "Brawl Stars Skins — artwork 3",
+          "label": "Brawl Stars Skins · 03 / 06"
+        },
+        {
+          "url": "./uploads/gaming/projects/brawl-stars/claudiu-manea-marketing-punker-bibi-01.jpg",
+          "alt": "Brawl Stars Skins — artwork 4",
+          "label": "Brawl Stars Skins · 04 / 06"
+        },
+        {
+          "url": "./uploads/gaming/projects/brawl-stars/claudiu-manea-marketing-punker-bibi-02.jpg",
+          "alt": "Brawl Stars Skins — artwork 5",
+          "label": "Brawl Stars Skins · 05 / 06"
+        },
+        {
+          "url": "./uploads/gaming/projects/brawl-stars/claudiu-manea-nita1.jpg",
+          "alt": "Brawl Stars Skins — artwork 6",
+          "label": "Brawl Stars Skins · 06 / 06"
+        }
+      ]
+    },
+    {
+      "title": "CyberPunk Buggy",
+      "category": "gaming",
+      "gameBrand": "buggy-concept",
+      "caption": "BUGGY CONCEPT",
+      "project": "CyberPunk Buggy",
+      "company": "-",
+      "concept": "Claudiu Manea",
+      "media": "./uploads/gaming/projects/Buggy%20Concept/Select%20a%20file%20name%20for%20output%20files_Main%20Camera_FullQuality_001.png",
+      "gallery": [
+        {
+          "url": "./uploads/gaming/projects/Buggy%20Concept/Select%20a%20file%20name%20for%20output%20files_Main%20Camera_FullQuality_001.png",
+          "alt": "CyberPunk Buggy — artwork 1",
+          "label": "CyberPunk Buggy · 01 / 03"
+        },
+        {
+          "url": "./uploads/gaming/projects/Buggy%20Concept/Select%20a%20file%20name%20for%20output%20files_Top%20Camera_FullQuality.png",
+          "alt": "CyberPunk Buggy — artwork 2",
+          "label": "CyberPunk Buggy · 02 / 03"
+        },
+        {
+          "url": "./uploads/gaming/projects/Buggy%20Concept/Select%20a%20file%20name%20for%20output%20files_Top_FullQuality.png",
+          "alt": "CyberPunk Buggy — artwork 3",
+          "label": "CyberPunk Buggy · 03 / 03"
+        }
+      ]
+    },
+    {
+      "title": "Near Future Mask",
+      "category": "gaming",
+      "gameBrand": "near-future-mask",
+      "caption": "NEAR FUTURE MASK",
+      "project": "Near Future Mask",
+      "company": "-",
+      "concept": "Claudiu Manea",
+      "media": "./uploads/gaming/projects/Near%20Future%20Mask/claudiu-manea-casca-front.jpg",
+      "gallery": [
+        {
+          "url": "./uploads/gaming/projects/Near%20Future%20Mask/claudiu-manea-casca-back-closeup.jpg",
+          "alt": "Near Future Mask — artwork 1",
+          "label": "Near Future Mask · 01 / 08"
+        },
+        {
+          "url": "./uploads/gaming/projects/Near%20Future%20Mask/claudiu-manea-casca-back.jpg",
+          "alt": "Near Future Mask — artwork 2",
+          "label": "Near Future Mask · 02 / 08"
+        },
+        {
+          "url": "./uploads/gaming/projects/Near%20Future%20Mask/claudiu-manea-casca-front-close-up-center.jpg",
+          "alt": "Near Future Mask — artwork 3",
+          "label": "Near Future Mask · 03 / 08"
+        },
+        {
+          "url": "./uploads/gaming/projects/Near%20Future%20Mask/claudiu-manea-casca-front-closeup.jpg",
+          "alt": "Near Future Mask — artwork 4",
+          "label": "Near Future Mask · 04 / 08"
+        },
+        {
+          "url": "./uploads/gaming/projects/Near%20Future%20Mask/claudiu-manea-casca-front.jpg",
+          "alt": "Near Future Mask — artwork 5",
+          "label": "Near Future Mask · 05 / 08"
+        },
+        {
+          "url": "./uploads/gaming/projects/Near%20Future%20Mask/claudiu-manea-casca-semi-top.jpg",
+          "alt": "Near Future Mask — artwork 6",
+          "label": "Near Future Mask · 06 / 08"
+        },
+        {
+          "url": "./uploads/gaming/projects/Near%20Future%20Mask/claudiu-manea-casca-side.jpg",
+          "alt": "Near Future Mask — artwork 7",
+          "label": "Near Future Mask · 07 / 08"
+        },
+        {
+          "url": "./uploads/gaming/projects/Near%20Future%20Mask/claudiu-manea-casca-top.jpg",
+          "alt": "Near Future Mask — artwork 8",
+          "label": "Near Future Mask · 08 / 08"
+        }
+      ]
+    },
+    {
+      "title": "Female Character Military Bust",
+      "category": "gaming",
+      "gameBrand": "room8",
+      "caption": "ROOM8",
+      "project": "Female Character Military Bust",
+      "company": "ROOM8",
+      "concept": "ROOM8",
+      "media": "./uploads/gaming/projects/ROOM8/SavageSam.jpg",
+      "gallery": [
+        {
+          "url": "./uploads/gaming/projects/ROOM8/SavageSam.jpg",
+          "alt": "Female Character Military Bust — artwork 1",
+          "label": "Female Character Military Bust · 01 / 01"
+        }
+      ]
+    },
+    {
+      "title": "EVANCE",
+      "category": "uiux",
+      "website": "https://evance.framer.website",
+      "caption": "UI / UX · FASHION PHOTOGRAPHY",
+      "description": "A fashion photography portfolio with bold imagery, editorial layouts, and space for every look to tell its story.",
+      "gallery": [
+        {
+          "type": "video",
+          "url": "./uploads/uiux/evance/presentation-1080p-grey.mp4",
+          "thumbnail": "./uploads/uiux/evance/presentation-first-frame.webp",
+          "label": "EVANCE · Website walkthrough"
+        }
+      ],
+      "media": "./uploads/uiux/evance/presentation-first-frame.webp",
+      "previewVideo": "./uploads/uiux/evance/presentation-1080p-grey.mp4"
+    },
+    {
+      "title": "EVIVE",
+      "category": "uiux",
+      "website": "https://evive.framer.website",
+      "caption": "UI / UX · ARCHITECTURE & INTERIORS",
+      "description": "An architecture and interior design website, with generous imagery and a clean, responsive layout.",
+      "media": "./uploads/uiux/evive/presentation-first-frame.webp",
+      "gallery": [
+        {
+          "type": "video",
+          "url": "./uploads/uiux/evive/presentation-1080p-grey.mp4",
+          "thumbnail": "./uploads/uiux/evive/presentation-first-frame.webp",
+          "label": "EVIVE · Website walkthrough"
+        },
+        {
+          "url": "./uploads/uiux/evive/01.webp",
+          "label": "EVIVE · 1 / 5",
+          "alt": "EVIVE — 01 Free iPhone 15 Pro On Rock Mockup_FullFocus"
+        },
+        {
+          "url": "./uploads/uiux/evive/02.webp",
+          "label": "EVIVE · 2 / 5",
+          "alt": "EVIVE — [PS] iPad Pro Free Scene_FullFocus2"
+        },
+        {
+          "url": "./uploads/uiux/evive/03.webp",
+          "label": "EVIVE · 3 / 5",
+          "alt": "EVIVE — Evive"
+        },
+        {
+          "url": "./uploads/uiux/evive/04.webp",
+          "label": "EVIVE · 4 / 5",
+          "alt": "EVIVE — MacBook Pro Workspace PSD Mockup_FullFocus4"
+        },
+        {
+          "url": "./uploads/uiux/evive/05.webp",
+          "label": "EVIVE · 5 / 5",
+          "alt": "EVIVE — SocialPreview"
+        }
+      ],
+      "previewVideo": "./uploads/uiux/evive/presentation-1080p-grey.mp4"
+    },
+    {
+      "title": "Full Focus",
+      "category": "uiux",
+      "website": "https://fullfocus.framer.website",
+      "caption": "UI / UX · PHOTOGRAPHY PORTFOLIO",
+      "description": "A photography portfolio that lets the images do the talking, from landscapes to the smallest details.",
+      "media": "./uploads/uiux/full-focus/presentation-first-frame.webp",
+      "gallery": [
+        {
+          "type": "video",
+          "url": "./uploads/uiux/full-focus/presentation-1080p-grey.mp4",
+          "thumbnail": "./uploads/uiux/full-focus/presentation-first-frame.webp",
+          "label": "Full Focus · Website walkthrough"
+        }
+      ],
+      "previewVideo": "./uploads/uiux/full-focus/presentation-1080p-grey.mp4"
+    },
+    {
+      "title": "Victorian House AI Generation",
+      "category": "ai",
+      "caption": "AI / ARCHITECTURAL RECONSTRUCTION",
+      "description": "Starting from a single street photo of a San Francisco Victorian, I rebuilt the house and its block in 3D with Claude driving Blender, plus a few generative image tools for skies, reflections and ornament detail. I matched the camera to the photo first, then layered in light, materials, trees and all the small imperfections that make a street feel lived in. A lot of side-by-side comparisons, a lot of tiny fixes, and one facade that had to hold up next to the real thing.",
+      "media": "https://i.ytimg.com/vi/e1hqV5Ji7EI/hqdefault.jpg",
+      "gallery": [
+        {
+          "type": "youtube",
+          "videoId": "e1hqV5Ji7EI",
+          "watchUrl": "https://www.youtube.com/watch?v=e1hqV5Ji7EI",
+          "thumbnail": "https://i.ytimg.com/vi/e1hqV5Ji7EI/hqdefault.jpg",
+          "label": "Victorian House AI Generation"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Blender",
+          "icon": "./uploads/ai/AI%20logos/Logo_Blender.svg.webp"
+        },
+        {
+          "name": "Claude",
+          "icon": "./uploads/ai/AI%20logos/anthropic.png"
+        },
+        {
+          "name": "Gemini",
+          "icon": "./uploads/ai/AI%20logos/logo-google-gemini.webp"
+        },
+        {
+          "name": "Python",
+          "icon": "./uploads/ai/AI%20logos/Python-logo-notext.svg.webp"
+        }
+      ]
+    },
+    {
+      "title": "Experimental Fashion / Images",
+      "category": "ai",
+      "caption": "EXPERIMENTAL FASHION · STILLS & MOTION",
+      "description": "Future-facing fashion, unexpected silhouettes, and a little visual world-building. Midjourney explorations, from still images into motion.",
+      "media": "./uploads/ai/fashion/05.webp",
+      "gallery": [
+        {
+          "url": "./uploads/ai/fashion/05.webp",
+          "label": "Experimental Fashion · 5 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_desert_fashion_model_dynamic_pose_acro_17c27ff3-955c-4f15-b9df-8076d6f866b0"
+        },
+        {
+          "url": "./uploads/ai/fashion/01.webp",
+          "label": "Experimental Fashion · 1 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_desert_fashion_man_model_dynamic_pose__3c7fb0ac-6735-4fa3-9d69-47a3945583c6"
+        },
+        {
+          "url": "./uploads/ai/fashion/02.webp",
+          "label": "Experimental Fashion · 2 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_desert_fashion_man_model_dynamic_pose__9e5d7581-31e4-4bb7-b9cb-b5e9d2c1e859"
+        },
+        {
+          "url": "./uploads/ai/fashion/03.webp",
+          "label": "Experimental Fashion · 3 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_desert_fashion_man_model_dynamic_pose__a96ed37f-8cd3-45b5-b52d-cd0ddee2074c"
+        },
+        {
+          "url": "./uploads/ai/fashion/04.webp",
+          "label": "Experimental Fashion · 4 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_desert_fashion_man_model_dynamic_pose__ac657005-4173-428e-84e6-261fed595554"
+        },
+        {
+          "url": "./uploads/ai/fashion/06.webp",
+          "label": "Experimental Fashion · 6 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_desert_fashion_model_dynamic_pose_acro_19eef9f3-09ea-4bf0-8188-40ba4cf022f3"
+        },
+        {
+          "url": "./uploads/ai/fashion/07.webp",
+          "label": "Experimental Fashion · 7 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_desert_fashion_model_dynamic_pose_acro_8eb34a4b-c613-4ba5-b020-c01a95133a01"
+        },
+        {
+          "url": "./uploads/ai/fashion/08.webp",
+          "label": "Experimental Fashion · 8 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_asian_woman_hyper_realistic__230ca5a6-28ca-4390-ae87-04eb2c65aa58_1"
+        },
+        {
+          "url": "./uploads/ai/fashion/09.webp",
+          "label": "Experimental Fashion · 9 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_asian_woman_hyper_realistic__230ca5a6-28ca-4390-ae87-04eb2c65aa58_2 (1)"
+        },
+        {
+          "url": "./uploads/ai/fashion/10.webp",
+          "label": "Experimental Fashion · 10 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_asian_woman_hyper_realistic__3b675ed4-d57b-4810-addf-6a70c4310c96_0"
+        },
+        {
+          "url": "./uploads/ai/fashion/11.webp",
+          "label": "Experimental Fashion · 11 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_asian_woman_hyper_realistic__87ccd452-d3f1-497d-b32c-ca6c1a84111c_0"
+        },
+        {
+          "url": "./uploads/ai/fashion/12.webp",
+          "label": "Experimental Fashion · 12 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_asian_woman_hyper_realistic__87ccd452-d3f1-497d-b32c-ca6c1a84111c_1"
+        },
+        {
+          "url": "./uploads/ai/fashion/15.webp",
+          "label": "Experimental Fashion · 15 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_asian_woman_hyper_realistic__cf066393-9169-45ff-bc1b-32a5b0c02286_0"
+        },
+        {
+          "url": "./uploads/ai/fashion/16.webp",
+          "label": "Experimental Fashion · 16 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_asian_woman_hyper_realistic__cf066393-9169-45ff-bc1b-32a5b0c02286_1"
+        },
+        {
+          "url": "./uploads/ai/fashion/17.webp",
+          "label": "Experimental Fashion · 17 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_asian_woman_hyper_realistic__cf066393-9169-45ff-bc1b-32a5b0c02286_3"
+        },
+        {
+          "url": "./uploads/ai/fashion/18.webp",
+          "label": "Experimental Fashion · 18 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_asian_woman_hyper_realistic_wi_1746f4d9-f2fc-4436-bf0e-ab85e02c2eb4"
+        },
+        {
+          "url": "./uploads/ai/fashion/19.webp",
+          "label": "Experimental Fashion · 19 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_asian_woman_hyper_realistic_wi_2102c71e-9d18-458f-a3d3-1dd0826b6383"
+        },
+        {
+          "url": "./uploads/ai/fashion/20.webp",
+          "label": "Experimental Fashion · 20 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_asian_woman_hyper_realistic_wi_a6b758e9-bb38-410b-b556-30a349dc0537"
+        },
+        {
+          "url": "./uploads/ai/fashion/21.webp",
+          "label": "Experimental Fashion · 21 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_black_woman_hyper_realistic__b8182dee-8f77-43aa-8a65-7183aa7f32f1_0"
+        },
+        {
+          "url": "./uploads/ai/fashion/22.webp",
+          "label": "Experimental Fashion · 22 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_black_woman_hyper_realistic__b8182dee-8f77-43aa-8a65-7183aa7f32f1_1"
+        },
+        {
+          "url": "./uploads/ai/fashion/23.webp",
+          "label": "Experimental Fashion · 23 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_black_woman_hyper_realistic__b8182dee-8f77-43aa-8a65-7183aa7f32f1_3"
+        },
+        {
+          "url": "./uploads/ai/fashion/24.webp",
+          "label": "Experimental Fashion · 24 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_black_woman_hyper_realistic_co_44ea5f9b-45a8-4238-919e-66da38311a5d"
+        },
+        {
+          "url": "./uploads/ai/fashion/26.webp",
+          "label": "Experimental Fashion · 26 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_fashion_woman_hyper_realistic_covered__905b7fcc-f476-4c43-b52c-2198ac859dd9"
+        },
+        {
+          "url": "./uploads/ai/fashion/29.webp",
+          "label": "Experimental Fashion · 29 / 31",
+          "alt": "Experimental Fashion — claudiu_manea_Futuristic_female_silhouette_in_a_sleek_orange_le_55f67234-02c1-43b8-928a-b015b4577f2e"
+        },
+        {
+          "url": "./uploads/ai/fashion/31.webp",
+          "label": "Experimental Fashion · 31 / 31",
+          "alt": "Experimental Fashion — Silhouette2"
+        }
+      ]
+    },
+    {
+      "title": "Experimental Fashion / Motion",
+      "category": "ai",
+      "caption": "EXPERIMENTAL FASHION · STILLS & MOTION",
+      "description": "Future-facing fashion, unexpected silhouettes, and a little visual world-building. Midjourney explorations, from still images into motion.",
+      "media": "./uploads/ai/fashion/08.webp",
+      "gallery": [
+        {
+          "type": "video",
+          "url": "./uploads/ai/fashion/videos/01.mp4",
+          "thumbnail": "./uploads/ai/fashion/videos/frame-01.jpg",
+          "label": "Experimental Fashion · Motion 1 / 10"
+        },
+        {
+          "type": "video",
+          "url": "./uploads/ai/fashion/videos/02.mp4",
+          "thumbnail": "./uploads/ai/fashion/videos/frame-02.jpg",
+          "label": "Experimental Fashion · Motion 2 / 10"
+        },
+        {
+          "type": "video",
+          "url": "./uploads/ai/fashion/videos/03.mp4",
+          "thumbnail": "./uploads/ai/fashion/videos/frame-03.jpg",
+          "label": "Experimental Fashion · Motion 3 / 10"
+        },
+        {
+          "type": "video",
+          "url": "./uploads/ai/fashion/videos/05.mp4",
+          "thumbnail": "./uploads/ai/fashion/videos/frame-05.jpg",
+          "label": "Experimental Fashion · Motion 5 / 10"
+        },
+        {
+          "type": "video",
+          "url": "./uploads/ai/fashion/videos/06.mp4",
+          "thumbnail": "./uploads/ai/fashion/videos/frame-06.jpg",
+          "label": "Experimental Fashion · Motion 6 / 10"
+        },
+        {
+          "type": "video",
+          "url": "./uploads/ai/fashion/videos/07.mp4",
+          "thumbnail": "./uploads/ai/fashion/videos/frame-07.jpg",
+          "label": "Experimental Fashion · Motion 7 / 10"
+        },
+        {
+          "type": "video",
+          "url": "./uploads/ai/fashion/videos/08.mp4",
+          "thumbnail": "./uploads/ai/fashion/videos/frame-08.jpg",
+          "label": "Experimental Fashion · Motion 8 / 10"
+        },
+        {
+          "type": "video",
+          "url": "./uploads/ai/fashion/videos/09.mp4",
+          "thumbnail": "./uploads/ai/fashion/videos/frame-09.jpg",
+          "label": "Experimental Fashion · Motion 9 / 10"
+        },
+        {
+          "type": "video",
+          "url": "./uploads/ai/fashion/videos/10.mp4",
+          "thumbnail": "./uploads/ai/fashion/videos/frame-10.jpg",
+          "label": "Experimental Fashion · Motion 10 / 10"
+        }
+      ],
+      "previewVideo": "./uploads/ai/fashion/videos/02.mp4"
+    },
+    {
+      "title": "Bloom&Breakfast",
+      "category": "gaming",
+      "gameBrand": "bloom-breakfast",
+      "caption": "STYLIZED ENVIRONMENTS & PROPS",
+      "project": "Bloom&Breakfast",
+      "company": "Fortis Games",
+      "concept": "Alex Dima / Xenia Pamfil / Alin Alexandru",
+      "description": "A colorful collection of stylized setpieces, buildings, and props, from lush gardens and desert landmarks to playful everyday details.",
+      "logoImage": "./uploads/gaming/bloom-breakfast/logo.webp",
+      "media": "./uploads/gaming/bloom-breakfast/bloom-gallery-01-1080.jpg",
+      "gallery": [
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-01-1080.jpg",
+          "label": "Bloom&Breakfast · Restaurant Repaired",
+          "alt": "Bloom&Breakfast — Restaurant Repaired"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-02-1080.jpg",
+          "label": "Bloom&Breakfast · Caves Set Pieces Mushrooms",
+          "alt": "Bloom&Breakfast — Caves Set Pieces Mushrooms"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-03-1080.jpg",
+          "label": "Bloom&Breakfast · Desert and Arizona",
+          "alt": "Bloom&Breakfast Desert and Arizona setpieces and alternate views"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-04-1080.jpg",
+          "label": "Bloom&Breakfast · Forest and waterfalls",
+          "alt": "Bloom&Breakfast Forest and Grasslands setpieces and alternate views"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-05-1080.jpg",
+          "label": "Bloom&Breakfast · Library",
+          "alt": "Library setpieces with enlarged single window, triple windows, and crystal altar"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-06-1080.jpg",
+          "label": "Bloom&Breakfast · Sky Gardens and Nomads",
+          "alt": "Bloom&Breakfast Sky Gardens and Nomads setpieces and alternate views"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-07-1080.jpg",
+          "label": "Bloom&Breakfast · Swamp",
+          "alt": "Bloom&Breakfast Swamp setpieces and alternate views"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-08-1080.jpg",
+          "label": "Bloom&Breakfast · Underwater",
+          "alt": "Bloom&Breakfast Underwater setpieces and alternate views"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-09-1080.jpg",
+          "label": "Bloom&Breakfast · Buildings 01",
+          "alt": "Bloom&Breakfast buildings: UIVis_Building_BakeryLvl2_Model, UIVis_Building_DocksLvl0_Model, UIVis_Building_DocksLvl2_Model, UIVis_Building_LighthouseLvl0_Model, UIVis_Building_LighthouseLvl1_Model"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-10-1080.jpg",
+          "label": "Bloom&Breakfast · Buildings 02",
+          "alt": "Bloom&Breakfast buildings: UIVis_Building_MarketLvl0_Model, UIVis_Building_MarketLvl1_Model, UIVis_Building_MarketLvl2_Model, UIVis_Building_MarketLvl3_Model, UIVis_MushroomHouse_Building_Model, UIVis_StrawBerryHouse_Building"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-11-1080.jpg",
+          "label": "Bloom&Breakfast · Props 01",
+          "alt": "Bloom&Breakfast props: ArrowSigns, Bags, bug, Bushes Flowers, ChubyCactus, DateTree, DesertTwistyTree, DesertWatermelon, DesertWell, FarmGatherables, FarmingCoconut_LV1_Model"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-12-1080.jpg",
+          "label": "Bloom&Breakfast · Props 02",
+          "alt": "Only the selected six crop plants and six individual trees and bushes"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-13-1080.jpg",
+          "label": "Bloom&Breakfast · Props 03",
+          "alt": "Bloom&Breakfast props: MapleTree, MarchDiamonds, MarchFern, MirageStoneDust, NewBerriesBush, NomadInstruments, NarrativeItems, StoneBox"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-14-1080.jpg",
+          "label": "Bloom&Breakfast · Props 04",
+          "alt": "Bloom&Breakfast props: NomadPottery, NomadRugs, NomadStock, NomadTent, OasisPlant, OasisSucculent, OldSump, PalmTree, PileOfPlanks, PillarOfLight, QuadrupleCactus, GoatWooden"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-15-1080.jpg",
+          "label": "Bloom&Breakfast · Props 05",
+          "alt": "Bloom&Breakfast props: Reed, RoadBlock, RockDepositMarsh, SilkWormCrop, SmallPalmTree, SquirellWooden, StackOfBricks, SunFlower, UIVis_AppleTable_Prop, UIVis_Blocker_FallenTree, UIVis_Blocker_FenceGate_Closed, IluminescentPlant"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-16-1080.jpg",
+          "label": "Bloom&Breakfast · Props 06",
+          "alt": "Bloom&Breakfast props: UIVis_Blocker_FenceGate_Open, UIVis_Blocker_HedgeGate_Closed, UIVis_Blocker_HedgeGate_Open, UIVis_Blocker_StoneArch_Collapsed, UIVis_Blocker_StoneArch_Restored, UIVis_FarmingCoconut_LV2_Model, UIVis_FarmingCoconut_LV3_Model, UIVis_Gatherable_Bushes, UIVis_Gatherable_FallenLogs, UIVis_Gatherable_FernClusters, UIVis_MatGatherable_Beehive, LoquoTree"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-17-1080.jpg",
+          "label": "Bloom&Breakfast · Props 07",
+          "alt": "Bloom&Breakfast props: UIVis_MatGatherable_BerryBush, UIVis_MatGatherable_LilyFlower, UIVis_PlotDecoration_AppleTree, UIVis_PlotDecoration_Bench, UIVis_PlotDecoration_ChessTableLvl1, UIVis_PlotDecoration_ChessTableLvl2, UIVis_PlotDecoration_Column, UIVis_PlotDecoration_Deer, UIVis_PlotDecoration_FishFountain, UIVis_PlotDecoration_Fox, UIVis_PlotDecoration_LightPole, LotusFlower"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-18-1080.jpg",
+          "label": "Bloom&Breakfast · Props 08",
+          "alt": "Bloom&Breakfast props: UIVis_PlotDecoration_LumberjackAxe, UIVis_PlotDecoration_Ram, UIVis_PlotDecoration_WaterWellLvl1, UIVis_PlotDecoration_WaterWellLvl2, UIVis_Separator_Fence_Small, UIVis_Separator_Hedges_Large, UIVis_Separator_Hedges_Medium, UIVis_Separator_Hedges_Small, UIVis_Separator_StoneWall_Large, UIVis_Separator_StoneWall_Medium, MagicLamp"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-19-1080.jpg",
+          "label": "Bloom&Breakfast · Props 09",
+          "alt": "Bloom&Breakfast props: UIVis_Separator_StoneWall_Small, Vis_Blocker_StoneArch_WetLands_Collapsed, Vis_Blocker_StoneArch_WetLands_Restored, Vis_Separator_StoneWall_WetLands_Large, Vis_Separator_StoneWall_WetLands_Medium, Vis_Separator_StoneWall_WetLands_Small, WheatPatchCut, WheatPatchGrown, WheatPatchSprouts, WispFlowers"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-20-1080.jpg",
+          "label": "Bloom&Breakfast · Woodland props",
+          "alt": "Woodland props, gatherables, fences, apple flag, and hammock"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-21-1080.jpg",
+          "label": "Bloom&Breakfast · Farm layout",
+          "alt": "Bloom&Breakfast Farm layout"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-22-1080.jpg",
+          "label": "Bloom&Breakfast · Forest gatherables",
+          "alt": "Bloom&Breakfast Forest gatherables"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-23-1080.jpg",
+          "label": "Bloom&Breakfast · Houses 1 / 2",
+          "alt": "Bloom&Breakfast Houses 1 / 2"
+        },
+        {
+          "url": "./uploads/gaming/bloom-breakfast/bloom-gallery-24-1080.jpg",
+          "label": "Bloom&Breakfast · Houses 2 / 2",
+          "alt": "Bloom&Breakfast Houses 2 / 2"
+        }
+      ]
+    }
+  ]
+}

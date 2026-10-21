@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="AI icon">
+  <path d="M28 57 47 32h66l19 25v53l-22 22H50l-22-22z" fill="#9bb6d6" stroke="#171713" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M49 18v17m62-17v17M20 77h14m92 0h14" fill="none" stroke="#171713" stroke-width="7" stroke-linecap="round"/>
+  <path d="M50 75h20m20 0h20M57 101h46" fill="none" stroke="#171713" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="80" cy="117" r="8" fill="#ed4e89"/>
+  <circle cx="49" cy="18" r="7" fill="#f7d94f" stroke="#171713" stroke-width="4"/><circle cx="111" cy="18" r="7" fill="#ed4e89" stroke="#171713" stroke-width="4"/>
+  <path d="m35 54 90 69" stroke="#fffaf0" stroke-width="4" opacity=".7"/>
+</svg>
