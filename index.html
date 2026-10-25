@@ -1348,7 +1348,7 @@ loader.parse(monkeyBytes,'',gltf=>{
   const pupilMaterial=new THREE.MeshBasicMaterial({color:'#171713'});
   for(const side of [-1,1]){
     const pupil=new THREE.Mesh(new THREE.SphereGeometry(.043,16,12),pupilMaterial);
-    pupil.scale.set(1,.88,.3);pupil.position.set(side*.35156,.30,.835);model.add(pupil);heroPupils.push({pupil,side});
+    pupil.scale.set(1,.88,.3);pupil.position.set(side*.35156,.26,.835);model.add(pupil);heroPupils.push({pupil,side});
   }
   camera.position.z=Math.max(size.x,size.y,size.z)*1.75;camera.lookAt(0,0,0);
   stage.classList.add('model-ready');resize();
@@ -1363,7 +1363,7 @@ loader.parse(monkeyBytes,'',gltf=>{
       for(const eye of heroEyeMeshes){for(const i of eye.eyeIndices)eye.positions.array[i*3+1]=.24219+(eye.basePositions[i*3+1]-.24219)*eyeScale;eye.positions.needsUpdate=true}
 
       const state=window.__heroCursorState||{x:0,y:0,scroll:0};
-      for(const {pupil,side} of heroPupils){pupil.position.x+=(side*.35156+state.x*.032-pupil.position.x)*.14;pupil.position.y+=(.30-state.y*.022-pupil.position.y)*.14;pupil.scale.y=eyeScale*.88}
+      for(const {pupil,side} of heroPupils){pupil.position.x+=(side*.35156+state.x*.06-pupil.position.x)*.14;pupil.position.y+=(.26-state.y*.06-pupil.position.y)*.14;pupil.scale.y=eyeScale*.88}
       const yaw=Math.atan(state.x*.26)+state.scroll*.12;
       const pitch=Math.atan(state.y*.19)-state.scroll*.07;
       direction.set(Math.sin(yaw)*Math.cos(pitch),-Math.sin(pitch),Math.cos(yaw)*Math.cos(pitch)).normalize();
