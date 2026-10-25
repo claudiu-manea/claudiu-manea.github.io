@@ -398,6 +398,7 @@
     .game-layout>.game-projects .game-reel-controls .game-next-text{display:block;width:auto;height:auto;padding:8px 0;border:0;background:transparent;color:inherit;font:inherit;cursor:pointer}
     .game-layout>.game-projects .game-reel-controls .game-next-text:hover:not(:disabled){background:transparent;color:var(--pink)}
     .game-layout>.game-projects .game-project-window{position:relative;flex:1 1 auto;min-width:0;min-height:0;width:100%;padding:clamp(16px,1.8vw,28px) clamp(14px,1.5vw,24px) clamp(20px,2.2vw,34px);overflow-x:clip;overflow-y:visible}
+    .game-layout>.game-projects .game-project-track{width:100%;overflow:hidden}
     .game-layout>.game-projects .game-project-grid{display:grid;width:100%;grid-auto-flow:column;grid-template-columns:none;grid-auto-columns:calc((100% - 2 * clamp(30px,3vw,48px))/3);grid-template-rows:repeat(2,auto);grid-auto-rows:auto;align-content:start;align-items:start;overflow:visible;column-gap:clamp(30px,3vw,48px);row-gap:clamp(20px,2.2vw,34px);padding:8px 4px 22px;transition:transform .48s cubic-bezier(.2,.75,.25,1);mask-image:none;-webkit-mask-image:none}
     .game-layout>.game-projects .game-project-grid>.project{min-width:0}
     .game-layout>.game-projects .game-project-grid .thumb,.game-layout>.game-projects .game-project-grid .project:nth-child(2n) .thumb{aspect-ratio:1/1}
@@ -1268,7 +1269,7 @@
     photoProjectGrid.addEventListener('focusin',event=>{const card=event.target.closest('.project[data-gallery]');if(card)showPhotoOnCamera(card)});
     photoProjectGrid.addEventListener('focusout',event=>{const card=event.target.closest('.project[data-gallery]');if(card&&!card.contains(event.relatedTarget))clearPhotoOnCamera(card)});
     const gameBrandStrip=document.querySelector('.game-brand-strip'),gameProjectsGrid=document.querySelector('#gameProjectGrid'),gameFilterEmpty=document.querySelector('.game-filter-empty');
-    const gameProjectWindow=document.createElement('div');gameProjectWindow.className='game-project-window';gameProjectsGrid.before(gameProjectWindow);gameProjectWindow.append(gameProjectsGrid);let gameReelOffset=0;
+    const gameProjectWindow=document.createElement('div'),gameProjectTrack=document.createElement('div');gameProjectWindow.className='game-project-window';gameProjectTrack.className='game-project-track';gameProjectsGrid.before(gameProjectWindow);gameProjectWindow.append(gameProjectTrack);gameProjectTrack.append(gameProjectsGrid);let gameReelOffset=0;
     const gameMobilePrev=document.createElement('button'),gameMobileNext=document.createElement('button');for(const [button,direction,label] of [[gameMobilePrev,'prev','Previous gaming projects'],[gameMobileNext,'next','Next gaming projects']]){button.type='button';button.className=`game-mobile-reel-arrow ${direction}`;button.textContent=direction==='prev'?'←':'→';button.setAttribute('aria-label',label);gameProjectWindow.append(button)}
     function gameReelViewportWidth(){const style=getComputedStyle(gameProjectWindow);return Math.max(0,gameProjectWindow.clientWidth-parseFloat(style.paddingLeft)-parseFloat(style.paddingRight))}
     gameProjectsGrid.querySelectorAll(':scope > article.project').forEach(card=>{card.dataset.gameBrand=gameBrandForProject({gameBrand:card.dataset.gameBrand,logoImage:card.querySelector('.game-logo-art')?.getAttribute('src')||'',title:card.querySelector('.project-info h3')?.textContent||''});card.querySelector('.game-logo-art')?.remove()});
@@ -1344,10 +1345,10 @@ loader.parse(monkeyBytes,'',gltf=>{
   });
   const bounds=new THREE.Box3().setFromObject(model),center=bounds.getCenter(new THREE.Vector3()),size=bounds.getSize(new THREE.Vector3());
   model.position.sub(center);pivot.add(model);
-  const pupilMaterial=new THREE.MeshBasicMaterial({color:'#171713'}),glintMaterial=new THREE.MeshBasicMaterial({color:'#fff8e7'});
+  const pupilMaterial=new THREE.MeshBasicMaterial({color:'#171713'});
   for(const side of [-1,1]){
-    const pupil=new THREE.Group(),dark=new THREE.Mesh(new THREE.SphereGeometry(.049,16,12),pupilMaterial),glint=new THREE.Mesh(new THREE.SphereGeometry(.012,10,8),glintMaterial);
-    dark.scale.set(1,.88,.5);glint.position.set(-.015,.014,.024);pupil.add(dark,glint);pupil.position.set(side*.35156,.24219,.846);model.add(pupil);heroPupils.push({pupil,side});
+    const pupil=new THREE.Mesh(new THREE.SphereGeometry(.034,16,12),pupilMaterial);
+    pupil.scale.set(1,.88,.5);pupil.position.set(side*.35156,.24219,.846);model.add(pupil);heroPupils.push({pupil,side});
   }
   camera.position.z=Math.max(size.x,size.y,size.z)*1.75;camera.lookAt(0,0,0);
   stage.classList.add('model-ready');resize();
@@ -1362,7 +1363,7 @@ loader.parse(monkeyBytes,'',gltf=>{
       for(const eye of heroEyeMeshes){for(const i of eye.eyeIndices)eye.positions.array[i*3+1]=.24219+(eye.basePositions[i*3+1]-.24219)*eyeScale;eye.positions.needsUpdate=true}
 
       const state=window.__heroCursorState||{x:0,y:0,scroll:0};
-      for(const {pupil,side} of heroPupils){pupil.position.x+=(side*.35156+state.x*.038-pupil.position.x)*.14;pupil.position.y+=(.24219+state.y*.027-pupil.position.y)*.14;pupil.scale.y=eyeScale}
+      for(const {pupil,side} of heroPupils){pupil.position.x+=(side*.35156+state.x*.07-pupil.position.x)*.14;pupil.position.y+=(.24219-state.y*.055-pupil.position.y)*.14;pupil.scale.y=eyeScale*.88}
       const yaw=Math.atan(state.x*.26)+state.scroll*.12;
       const pitch=Math.atan(state.y*.19)-state.scroll*.07;
       direction.set(Math.sin(yaw)*Math.cos(pitch),-Math.sin(pitch),Math.cos(yaw)*Math.cos(pitch)).normalize();
