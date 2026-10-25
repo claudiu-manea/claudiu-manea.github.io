@@ -506,13 +506,15 @@
     .game-layout>.game-projects .game-project-grid{grid-template-rows:auto;grid-auto-columns:calc((100% - 2 * clamp(30px,3vw,52px))/3);column-gap:clamp(30px,3vw,52px);row-gap:0;align-items:start;padding-bottom:18px}
     @media(max-width:1299px){.game-layout>.game-projects .game-project-grid{grid-template-rows:auto;grid-auto-columns:calc((100% - clamp(24px,3vw,40px))/2);column-gap:clamp(24px,3vw,40px)}}
     @media(max-width:700px){.game-layout>.game-projects .game-project-grid{grid-template-rows:auto;grid-auto-columns:min(78vw,360px);column-gap:22px}}
-    .game-mobile-reel-arrow{display:none}
+    .game-mobile-reel-arrow{position:absolute;z-index:8;top:50%;display:grid;place-items:center;width:64px;height:68px;padding:0;border:2px solid var(--ink);background:#fffaf0;color:var(--ink);font:700 40px/1 var(--mono);box-shadow:5px 6px 0 var(--ink);transform:translateY(-50%);cursor:pointer;transition:background .2s,transform .2s}
+    .game-mobile-reel-arrow:hover:not(:disabled){background:var(--pink);transform:translateY(-50%) scale(1.06)}
+    .game-mobile-reel-arrow.prev{left:4px}.game-mobile-reel-arrow.next{right:4px}
+    .game-mobile-reel-arrow:disabled{opacity:.38;box-shadow:none;cursor:default}
+    .game-mobile-reel-arrow:focus-visible{outline:3px solid var(--pink);outline-offset:4px}
     @media(max-width:700px){
       .game-layout>.game-projects .game-project-window{touch-action:pan-y}
-      .game-mobile-reel-arrow{position:absolute;z-index:8;top:clamp(245px,80vw,330px);display:grid;place-items:center;width:46px;height:52px;padding:0;border:2px solid var(--ink);background:#fffaf0;color:var(--ink);font:700 30px/1 var(--mono);box-shadow:4px 5px 0 var(--ink);transform:translateY(-50%);cursor:pointer}
+      .game-mobile-reel-arrow{top:clamp(245px,80vw,330px);width:46px;height:52px;font-size:30px;box-shadow:4px 5px 0 var(--ink)}
       .game-mobile-reel-arrow.prev{left:2px}.game-mobile-reel-arrow.next{right:2px}
-      .game-mobile-reel-arrow:disabled{opacity:.32;box-shadow:none;cursor:default}
-      .game-mobile-reel-arrow:focus-visible{outline:3px solid var(--pink);outline-offset:4px}
     }
     .game-layout>.game-projects .game-project-grid>.project:nth-of-type(3n+1),.game-layout>.game-projects .game-project-grid>.project:nth-of-type(3n+3){margin-top:clamp(150px,13vw,230px)!important}
     .game-layout>.game-projects .game-project-grid>.project:nth-of-type(3n+2){margin-top:0!important}
@@ -1059,6 +1061,9 @@
     const scheduleMotionUpdate=()=>{if(!motionPending){motionPending=true;requestAnimationFrame(()=>{updateHeroMotion();motionPending=false})}};
     window.addEventListener('scroll',scheduleMotionUpdate,{passive:true});
     window.addEventListener('pointermove',event=>{if(event.pointerType==='touch')return;const rect=stage.getBoundingClientRect();pointerX=Math.max(-1,Math.min(1,((event.clientX-rect.left)/rect.width-.5)*2));pointerY=Math.max(-1,Math.min(1,((event.clientY-rect.top)/rect.height-.5)*2));scheduleMotionUpdate()},{passive:true});
+    const followHeroTouch=event=>{if(event.pointerType!=='touch')return;const rect=stage.getBoundingClientRect();pointerX=Math.max(-1,Math.min(1,((event.clientX-rect.left)/Math.max(rect.width,1)-.5)*2));pointerY=Math.max(-1,Math.min(1,((event.clientY-rect.top)/Math.max(rect.height,1)-.5)*2));scheduleMotionUpdate()};
+    hero.addEventListener('pointerdown',followHeroTouch,{passive:true});
+    hero.addEventListener('pointermove',followHeroTouch,{passive:true});
     hero.addEventListener('pointerleave',()=>{pointerX=0;pointerY=0;scheduleMotionUpdate()});
     updateHeroMotion();
     document.querySelectorAll('.orbit-icon').forEach(link=>{link.addEventListener('click',event=>{event.preventDefault();const button=filters.find(item=>item.dataset.filter===link.dataset.filter);if(button)button.click();document.querySelector(link.getAttribute('href'))?.scrollIntoView({behavior:reduceMotion?'auto':'smooth'})});link.addEventListener('pointerenter',()=>filters.forEach(button=>button.classList.toggle('hovered',button.dataset.filter===link.dataset.filter)));link.addEventListener('pointerleave',()=>filters.forEach(button=>button.classList.remove('hovered')))});
@@ -1293,12 +1298,6 @@
     import * as THREE from 'three';
     import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
      const canvas=document.querySelector('#monkeyCanvas'),stage=document.querySelector('#heroStage');
-     let heroTouchX=0,heroTouchY=0,heroTouchActive=false,heroTouchHasInput=false,heroTouchLastX=0,heroTouchLastY=0;
-     canvas.style.touchAction='pan-y';
-     const heroPoint=event=>{const rect=canvas.getBoundingClientRect();return {x:Math.max(-1,Math.min(1,(event.clientX-rect.left)/Math.max(rect.width,1)*2-1)),y:Math.max(-.75,Math.min(.75,-((event.clientY-rect.top)/Math.max(rect.height,1)*2-1)))} };
-     canvas.addEventListener('pointerdown',event=>{if(event.pointerType==='mouse'&&event.button!==0)return;const p=heroPoint(event);heroTouchX=p.x*.72;heroTouchY=p.y*.58;heroTouchHasInput=true;heroTouchActive=true;heroTouchLastX=event.clientX;heroTouchLastY=event.clientY;canvas.setPointerCapture?.(event.pointerId);if(event.pointerType==='mouse')event.preventDefault()},{passive:false});
-     canvas.addEventListener('pointermove',event=>{if(!heroTouchActive)return;const rawDx=event.clientX-heroTouchLastX,rawDy=event.clientY-heroTouchLastY;heroTouchX=Math.max(-1,Math.min(1,heroTouchX+rawDx/Math.max(canvas.clientWidth,1)*2.7));heroTouchY=Math.max(-.75,Math.min(.75,heroTouchY-rawDy/Math.max(canvas.clientHeight,1)*2.7));heroTouchLastX=event.clientX;heroTouchLastY=event.clientY;if(event.pointerType==='mouse'||Math.abs(rawDx)>Math.abs(rawDy)*.72)event.preventDefault()},{passive:false});
-     const releaseHeroTouch=()=>{heroTouchActive=false};canvas.addEventListener('pointerup',releaseHeroTouch);canvas.addEventListener('pointercancel',releaseHeroTouch);
     const renderer=new THREE.WebGLRenderer({canvas,alpha:true,antialias:true});
     renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));
     renderer.outputColorSpace=THREE.SRGBColorSpace;
@@ -1356,9 +1355,9 @@ loader.parse(monkeyBytes,'',gltf=>{
       if(heroBlinkStart>=0){const phase=(blinkNow-heroBlinkStart)/heroBlinkDuration;if(phase>=1){heroBlinkStart=-1;if(!heroFollowupBlink&&Math.random()<.18){heroFollowupBlink=true;heroNextBlink=blinkNow+100+Math.random()*140;}else{heroFollowupBlink=false;heroNextBlink=blinkNow+2800+Math.random()*5200;}}else eyeScale=1-.98*Math.sin(phase*Math.PI)}
       for(const eye of heroEyeMeshes){for(const i of eye.eyeIndices)eye.positions.array[i*3+1]=.24219+(eye.basePositions[i*3+1]-.24219)*eyeScale;eye.positions.needsUpdate=true}
 
-      const state=window.__heroCursorState||{x:0,y:0,scroll:0},heroInput=heroTouchHasInput?{x:heroTouchX,y:heroTouchY}:{x:state.x,y:state.y};
-      const yaw=Math.atan(heroInput.x*.48)+state.scroll*.25;
-      const pitch=Math.atan(heroInput.y*.34)-state.scroll*.12;
+      const state=window.__heroCursorState||{x:0,y:0,scroll:0};
+      const yaw=Math.atan(state.x*.26)+state.scroll*.12;
+      const pitch=Math.atan(state.y*.19)-state.scroll*.07;
       direction.set(Math.sin(yaw)*Math.cos(pitch),-Math.sin(pitch),Math.cos(yaw)*Math.cos(pitch)).normalize();
       targetRotation.setFromUnitVectors(front,direction);
       pivot.quaternion.slerp(targetRotation,.12);
